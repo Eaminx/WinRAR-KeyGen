@@ -12,7 +12,7 @@ namespace WinRAR_KeyGen
     {
         static void Main(string[] args)
         {
-            Console.Title = "WinRAR KeyGen | Eaminx Corp.";
+            Console.Title = "WinRAR KeyGen | Eaminx Corporation.";
             AnsiConsole.Clear();
 
             var title = new FigletText(FigletFont.Default, "WINRAR")
