@@ -128,7 +128,7 @@ The implementation uses lookup tables for efficient multiplication in GF(2^15):
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/winrar-keygen.git
+git clone https://github.com/Eaminx/winrar-keygen.git
 cd winrar-keygen
 
 # Build the project
