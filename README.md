@@ -9,7 +9,6 @@
     <a href="#-overview">Overview</a> •
     <a href="#-key-features">Key Features</a> •
     <a href="#-cryptographic-architecture">Cryptography</a> •
-    <a href="#-terminal-ui-preview">TUI Preview</a> •
     <a href="#-quick-start">Quick Start</a> •
     <a href="#-build-from-source">Building</a> •
     <a href="#-disclaimer">Disclaimer</a>
@@ -48,51 +47,6 @@ Built on **.NET 8.0** with full **Native AOT** compilation capability, it produc
 | 🔍 **Smart Path Auto-Detection** | Searches Windows Registry (`HKLM`, `HKCU`) and default directories to locate WinRAR automatically. |
 | 💉 **Dual-Target Activation** | Automatically installs `rarreg.key` to both the WinRAR installation folder and `%APPDATA%\WinRAR`. |
 | 🔄 **Safe Process Handling** | Checks for active WinRAR instances, closes them safely before key injection, and relaunches WinRAR to verify activation. |
-
----
-
-## 🖥️ Terminal UI Preview
-
-```text
-  ██╗    ██╗██╗███╗   ██╗██████╗  █████╗ ██████╗ 
-  ██║    ██║██║████╗  ██║██╔══██╗██╔══██╗██╔══██╗
-  ██║ █╗ ██║██║██╔██╗ ██║██████╔╝███████║██████╔╝
-  ██║███╗██║██║██║╚██╗██║██╔══██╗██╔══██║██╔══██╗
-  ╚███╔███╔╝██║██║ ╚████║██║  ██║██║  ██║██║  ██║
-   ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-
-  ─────────────────────── Registration Tool ───────────────────────
-  Version      2.1.0        21 Oct 2026
-  User         Eaminx       17:30
-
-  ╭─ YOUR NAME ───────────────────────────────────────────────────╮
-  │ Default: Eaminx                                               │
-  ╰───────────────────────────────────────────────────────────────╯
-  > Eaminx
-
-  ╭─ LICENSE TYPE ────────────────────────────────────────────────╮
-  │ Default: Unlimited Company License                            │
-  ╰───────────────────────────────────────────────────────────────╯
-  > Unlimited Company License
-
-  → Found WinRAR at C:\Program Files\WinRAR
-  ────────────────────── Generating License ───────────────────────
-  ⠋ Computing elliptic curve signatures...
-  ✓ License key generated
-
-  ─────────────────────── Injecting License ───────────────────────
-  Writing to WinRAR directory  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100%
-  ✓ Written to C:\Program Files\WinRAR\rarreg.key
-  ✓ Written to C:\Users\Eaminx\AppData\Roaming\WinRAR\rarreg.key
-
-  ╭───────────────────── ACTIVATION COMPLETE ─────────────────────╮
-  │ ✓ SUCCESS                                                     │
-  │ Licensed to  Eaminx                                           │
-  │ License      Unlimited Company License                        │
-  │ Status       Activated                                        │
-  ╰───────────────────────────────────────────────────────────────╯
-  → Launched WinRAR
-```
 
 ---
 
